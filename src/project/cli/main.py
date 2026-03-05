@@ -1,7 +1,12 @@
+""" @file cli_main.py
+    @author Sean Duffie
+    @brief CLI Interface
+"""
 import typer
 from project.logic import calculate_data
 
 app = typer.Typer()
+
 
 @app.command()
 def compute(value: int):

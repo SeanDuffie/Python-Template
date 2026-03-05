@@ -6,9 +6,11 @@
 import re
 from pathlib import Path
 
+
 def slugify(text: str) -> str:
     """Converts 'Hello World' to 'hello-world' for filenames."""
     return re.sub(r"[\W_]+", "-", text).lower()
+
 
 def get_project_root() -> Path:
     """Returns the absolute path to the project root directory."""
