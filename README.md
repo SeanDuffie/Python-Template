@@ -1,8 +1,5 @@
 # Modern Python Project Template <!-- omit in toc -->
 
-[![Ruff](https://img.shields.io)](https://github.com)
-[![uv](https://img.shields.io)](https://github.com)
-
 A professional-grade, high-performance Python template utilizing uv for package management, ruff for linting, and loguru for structured logging. 
 
 This project is structured using the src-layout to ensure clean packaging and testability.
@@ -23,6 +20,21 @@ This project is structured using the src-layout to ensure clean packaging and te
   - [⚙️ VS Code Integration](#️-vs-code-integration)
   - [🛑 Important Notes](#-important-notes)
 
+## TODO
+
+### Features
+
+TODO
+
+### Bugs
+
+TODO
+
+## Updating README.md Table Of Contents (TOC)
+
+1. Open the Command Palette (`Ctrl+Shift+P`).
+2. Select `Markdown All in One: Create Table of Contents` to insert a TOC.
+3. It will automatically update every time the file is saved.
 
 ## 🛠 Features & Modern Choices
 | Feature |	Tool / Choice |	Why? |
