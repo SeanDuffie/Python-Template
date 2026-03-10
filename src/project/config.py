@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     """!
     @brief This will automatically look for an 'API_KEY' environment variable or .env entry
     @param BaseSettings Parent Class that is inherited
-    @raises ValueError The API KEY was not found in the .env file.
+    @exception ValueError The API KEY was not found in the .env file.
     """
 
     api_key: str = "123"
@@ -18,5 +18,6 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env")
 
 
-# Create a singleton instance
+## @var settings
+#  Create a singleton instance of the environment variables to be used elsewhere
 settings = Settings()

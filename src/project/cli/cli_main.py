@@ -5,6 +5,8 @@
 import typer
 from project.logic import calculate_data
 
+## @var app
+# The object that contains the CLI interface
 app = typer.Typer()
 
 
