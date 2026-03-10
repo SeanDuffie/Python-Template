@@ -1,7 +1,7 @@
-""" @file main.py
-    @author Sean Duffie
-    @brief The main of the project
-"""
+## file main.py
+#  author Sean Duffie
+#  brief The main of the project
+
 
 import sys
 from loguru import logger

@@ -1,7 +1,6 @@
-""" @file models.py
-    @author Sean Duffie
-    @brief This ensures that when data moves between your API, CLI, and Logic, it is always valid.
-"""
+## @file models.py
+#  @author Sean Duffie
+#  @brief This ensures that when data moves between your API, CLI, and Logic, it is always valid.
 
 from pydantic import BaseModel, Field
 from datetime import datetime

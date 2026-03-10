@@ -1,7 +1,7 @@
-""" @file cli_main.py
-    @author Sean Duffie
-    @brief CLI Interface
-"""
+## @file cli_main.py
+#  @author Sean Duffie
+#  @brief CLI Interface
+
 import typer
 from project.logic import calculate_data
 

@@ -1,7 +1,6 @@
-""" @file utils.py
-    @author Sean Duffie
-    @brief This file is for code that is used in multiple places but isn't core logic.
-"""
+## @file utils.py
+#  @author Sean Duffie
+#  @brief This file is for code that is used in multiple places but isn't core logic.
 
 import re
 from pathlib import Path

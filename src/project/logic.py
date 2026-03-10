@@ -1,10 +1,7 @@
-""" @file logic.py
-    @author Sean Duffie
-    @brief 
+## @file logic.py
+#  @author Sean Duffie
+#  @brief
 
-Raises:
-    ValueError: The API KEY was not found in the .env file.
-"""
 
 from loguru import logger
 from project.models import UserProfile, CalculationResult

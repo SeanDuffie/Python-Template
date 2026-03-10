@@ -37,7 +37,8 @@ This project is structured using the src-layout to ensure clean packaging and te
 
 ## 📂 Project Structure
 
-```my-project/
+```
+my-project/
 ├── .vscode/                # VS Code settings, launch configurations, and snippets
 ├── src/                    # All source code lives here
 │   └── my_project/         # Primary package (must contain __init__.py)
@@ -57,7 +58,6 @@ This project is structured using the src-layout to ensure clean packaging and te
 ├── pyproject.toml          # Project metadata and dependency groups
 ├── uv.lock                 # Deterministic lockfile (COMMIT THIS)
 └── main.spec               # PyInstaller build configuration
-
 ```
 
 ## Initial Setup for a New Project
@@ -110,6 +110,7 @@ Logs are sent to the console (Info level) and logs/app.log (Debug level). The lo
 This template uses `pytest` for automated testing. Tests are isolated from the core package to ensure that development tools are not bundled into production builds.
 
 #### How to Run Tests
+
 ```bash
 uv run pytest          # Run all tests
 uv run pytest -v       # Run with verbose output (shows function names)

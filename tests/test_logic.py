@@ -1,7 +1,6 @@
-""" @file test_logic.py
-    @author Sean Duffie
-    @brief 
-"""
+## @file test_logic.py
+#  @author Sean Duffie
+#  @brief
 
 import pytest
 from project.logic import process_data, process_user_request
@@ -25,3 +24,12 @@ def test_process_user_request_flow(sample_user):
     assert result.input_value == val
     assert result.output_value == 50
     assert result.timestamp is not None
+
+
+def test_process_data_invalid_input():
+    """
+    Verify that passing a string (invalid) raises a TypeError.
+    This uses the 'pytest' import so the linter is happy.
+    """
+    with pytest.raises(TypeError):
+        process_data("not a number")  # type: ignore
