@@ -4,9 +4,8 @@ A professional-grade, high-performance Python template utilizing uv for package 
 
 This project is structured using the src-layout to ensure clean packaging and testability.
 
-## Table of Contents
+## Table of Contents <!-- omit in toc -->
 
-- [Table of Contents](#table-of-contents)
 - [🛠 Features \& Modern Choices](#-features--modern-choices)
 - [📂 Project Structure](#-project-structure)
 - [Initial Setup for a New Project](#initial-setup-for-a-new-project)
